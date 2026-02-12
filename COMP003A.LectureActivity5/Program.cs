@@ -18,17 +18,30 @@ class Program
         int result = CalculateSum(num1, num2);
         
         Console.WriteLine(result);
+        
+        /*
+        int variable1 = 1;   
+        */
 
-        int variable1 = 1; 
 
-
+        if (true)
+        {
+            int variable3 = 100;
+            Console.WriteLine(variable3);
+            
+        }
+        
+        
+        Console.WriteLine(variable3);
+        
     }
 
     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to Module 5!");
-
+        /*
         Console.WriteLine(variable1);
+        */
     }
 
     static void DisplayUserInfo(string name, int age)
