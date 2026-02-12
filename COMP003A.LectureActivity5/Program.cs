@@ -32,7 +32,21 @@ class Program
         }
         
         
-        Console.WriteLine(variable3);
+        /*
+        Console.WriteLine(variable3); //  Program.cs(35, 27): [CS0103] The name 'variable3' does not exist in the current context
+        */
+
+
+
+        for (int counter = 0; counter <= 10; counter++)
+        {
+            Console.WriteLine(counter);
+            
+        }
+        
+        
+        Console.WriteLine(counter);   // Cannot resolve symbol 'counter'
+        
         
     }
 
@@ -40,7 +54,7 @@ class Program
     {
         Console.WriteLine("Welcome to Module 5!");
         /*
-        Console.WriteLine(variable1);
+        Console.WriteLine(variable1); //   Program.cs(44, 27): [CS0103] The name 'variable1' does not exist in the current context
         */
     }
 
