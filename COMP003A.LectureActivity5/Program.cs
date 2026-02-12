@@ -7,10 +7,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        DisplayWellcome();
+        DisplayWelcome();
+        string name1 = "Brianna";
+        int age1 = 19;
+        
+        DisplayUserInfo(name1, age1);
     }
 
-    static void DisplayWellcome()
+    static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to Module 5!");
     }
