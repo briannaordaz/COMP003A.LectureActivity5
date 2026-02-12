@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        DisplayWellcome();
     }
 
     static void DisplayWellcome()
