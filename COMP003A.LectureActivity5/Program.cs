@@ -19,12 +19,16 @@ class Program
         
         Console.WriteLine(result);
 
+        int variable1 = 1; 
+
 
     }
 
     static void DisplayWelcome()
     {
         Console.WriteLine("Welcome to Module 5!");
+
+        Console.WriteLine(variable1);
     }
 
     static void DisplayUserInfo(string name, int age)
