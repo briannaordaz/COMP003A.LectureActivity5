@@ -44,9 +44,9 @@ class Program
             
         }
         
-        
+        /*
         Console.WriteLine(counter);   // Cannot resolve symbol 'counter'
-        
+        */
         
     }
 
@@ -70,3 +70,15 @@ class Program
     }
     
 }
+
+/* 
+   Why method variables are not accessible in Main:
+   Method variables are not accessible in Main because every method has different scope and memory space, anything inside that method can be accessed only in that method
+   
+   Why block variables do not exist outside { }:
+   variables do not exist outside { } because once the block of code is executed, the brackets are what helps define where the variables can be accessed and where they cannot be accessed
+   
+   Why scope improves program safety:
+   scopes help improve program safety because they help prevent accidentally accessing variables from other methods
+   
+   */
