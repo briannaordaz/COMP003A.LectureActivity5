@@ -7,6 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
-    
+        
+    }
+
+    static void DisplayWellcome()
+    {
+        Console.WriteLine("Welcome to Module 5!");
     }
 }
