@@ -12,6 +12,14 @@ class Program
         int age1 = 19;
         
         DisplayUserInfo(name1, age1);
+
+        
+        int num1 = 20; int num2 = 30;
+        int result = CalculateSum(num1, num2);
+        
+        Console.WriteLine(result);
+
+
     }
 
     static void DisplayWelcome()
@@ -23,6 +31,11 @@ class Program
     {
         Console.WriteLine($"Name: {name}, Age: {age}");
     }
-    
+
+    static int CalculateSum(int a, int b)
+    {
+        return a + b;
+        
+    }
     
 }
